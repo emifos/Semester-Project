@@ -1,0 +1,188 @@
+body{
+    margin: 0;
+    
+}
+
+/* Font */
+
+.nav-header,
+h4, 
+.footer-content,
+.h1-home,
+.h1-confirmation,
+.h1-get-involved,
+p, 
+.booking-form,
+.site-nav,
+.dropdown-explore{
+    font-family:'Asap', Arial, Helvetica, sans-serif;
+}
+
+.logo-header,
+.logo-footer,
+h3,
+h1,
+.button,
+h2,
+.confirmation-logo{
+    font-family:'Coiny', Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+/* Header and Footer*/
+
+header{
+    background-color: #EEE8FA;
+    
+}
+
+.header-content{
+    margin: 0;
+    list-style: none;
+
+}
+
+.logo-header{
+    color: #713D9C;
+    font-size: 1.75rem;
+}
+
+
+a{
+    text-decoration: none;
+    
+}
+
+.nav-header{
+    font-weight: 600;
+    color:#47464B;
+    font-size: 1.25rem;
+}
+
+footer{
+    background-color: #262626;
+}
+
+.logo-footer{
+    color: #D87124;
+}
+
+h4{
+    font-size: 0.938rem;
+    color: #D87124;
+    font-weight: 600;
+}
+
+.footer-content{
+    color: #FFFFFF;
+    font-size: 0.813rem;
+}
+
+.fa-brands{
+    color: #FFFFFF;
+}
+
+
+/* Heading and text */
+
+h3{
+    color:#2B2B2B;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+}
+
+h1, 
+h2{
+    color:#2B2B2B;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.h1-home{
+    color: #D87124;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+
+
+.h1-get-involved{
+    font-weight: 700;
+    font-size: 2.25rem;
+    color: #D87124;
+}
+
+p{
+    font-size: 1.125rem;
+    color: #000000;
+    line-height:30px;
+}
+
+/* Buttons */
+
+.button{
+    background-color: #E2945B;
+    border-radius:5px;
+    padding: 10px 30px;
+    color: #000000;
+    font-size: 1.25rem;
+
+}
+
+/* Confirmation page*/
+
+.h1-confirmation{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 2rem;
+    background-color: #000000;
+}
+
+.confirmation-content{
+    background-image: url(/images/museum-overlook-image.jpg);
+    background-size: cover;
+    color: #FFFFFF;
+}
+
+.confirmation-text,
+.confirmation-logo{
+    color: #FFFFFF;
+}
+
+.confirmation-logo{
+    font-size: 1.125rem;
+}
+
+.confirmation-text{
+    font-size: 1.25rem;
+    line-height: 35px;
+}
+
+
+/* Booking */
+
+.booking-form{
+    font-size: 1.25rem;
+}
+
+
+/* Explore - Exhibitions and Events */
+
+.explore-nav, 
+.exhibition-nav{
+    list-style: none;
+    
+}
+
+.site-nav{
+    color: #47464B;
+    font-size:0.938rem;
+}
+
+/* Explore */
+
+.dropdown-explore{
+font-size: 1.125rem;
+line-height: 30px;
+color: #2B2B2B;
+}
