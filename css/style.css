@@ -51,6 +51,39 @@ a{
     font-size: 1.25rem;
 }
 
+.header-content, #menu-checkbox {
+    list-style: none;
+    display: none;
+}
+
+#menu-checkbox:checked ~ .header-content {
+    display: block;
+}
+
+.hamburger-icon {
+    color: #713d9c;
+    font-size: 2rem;
+    margin: 10px;
+}
+
+.header-items {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+
+.header-content {
+    position: absolute;
+    background-color: #eee8fa;
+    padding: 20px 200px 400px 10px;
+}
+
+.header-content li {
+    margin: 30px 0px;
+    text-decoration: underline;
+    text-decoration-color: #47464B;
+}
+
 footer{
     background-color: #262626;
 }
@@ -112,43 +145,54 @@ p{
     margin: 0px;
 }
 
-.banner-home {
-    background-image: url('../images/homepage-image.jpg');
+.home-image {
     background-size: cover;
-    min-height: 737px;
-    margin-top: 0px;
+    width: 100%;
 }
 
-.night-at-museum {
-    background-image: url('../images/night-at-museum-image.jpg');
-}
-
-.cosmology {
-    background-image: url('../images/astronaut-image.jpg');
-}
-
-.evolution {
-    background-image: url('../images/dinosaur-image.jpg');
-}
-
-.biology {
-    background-image: url('../images/microscope-image.jpg');
-}
-
-.robotics-ai {
-    background-image: url('../images/red-vr.jpg');
-}
-
-.night-at-museum,
-.cosmology,
-.evolution,
-.biology,
-.robotics-ai {
+.home-img-link {
+    position: relative;
+    display: inline-block;
     background-size: cover;
     min-height: 430px;
     width: 350px;
 }
 
+.home-img-link img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 10px;
+
+}
+
+.img-link-text {
+    position: absolute;
+    top: 88.3%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color:#FFFFFF;
+    padding: 19px 30px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.home-section-img {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.home-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f1fc;
+    padding: 20px 0px 40px 0px;
+}
+
+.home-h2 {
+    margin-left: 45px;
+}
 
 /* Explore page */
 .dropdown-explore{
