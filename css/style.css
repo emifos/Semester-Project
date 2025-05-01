@@ -113,30 +113,30 @@ p{
 }
 
 .banner-home {
-    background-image: url(/images/homepage-image.jpg);
+    background-image: url('../images/homepage-image.jpg');
     background-size: cover;
     min-height: 737px;
     margin-top: 0px;
 }
 
 .night-at-museum {
-    background-image: url(/images/night-at-museum-image.jpg);
+    background-image: url('../images/night-at-museum-image.jpg');
 }
 
 .cosmology {
-    background-image: url(../images/astronaut-image.jpg);
+    background-image: url('../images/astronaut-image.jpg');
 }
 
 .evolution {
-    background-image: url(/images/dinosaur-image.jpg);
+    background-image: url('../images/dinosaur-image.jpg');
 }
 
 .biology {
-    background-image: url(/images/microscope-image.jpg);
+    background-image: url('../images/microscope-image.jpg');
 }
 
 .robotics-ai {
-    background-image: url(/images/red-vr.jpg);
+    background-image: url('../images/red-vr.jpg');
 }
 
 .night-at-museum,
@@ -217,7 +217,7 @@ p{
 /* get involved and confirmation image */
 .h1-get-involved,
 .confirmation-content {
-    background-image: url(/images/museum-overlook-image.jpg);
+    background-image: url('../images/museum-overlook-image.jpg');
     background-size: cover;
     min-height: 687px;
 }
