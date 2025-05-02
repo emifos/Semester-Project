@@ -10,5 +10,30 @@
 
 /* Desktop */
 @media (min-width:1200px){
+    .hamburger-icon {
+        display: none;
+    }
+
+    .header-content {
+        display: flex;
+        flex-direction: row;
+        position: static;
+        background: none;
+        padding: 0px 40px 0px 0px;
+        gap: 35px;
+    }
+
+    .header-items {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .logo-header {
+        align-self: center;
+    }
+
+    .header-content li {
+        text-decoration: none;
+    }
 
 }
