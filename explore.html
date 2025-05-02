@@ -14,18 +14,23 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Coiny&display=swap" rel="stylesheet"> 
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/media.css" rel="stylesheet">
 </head>
 <body>
     <header>
-        <nav>
-            <ul class="header-content">
-                <li><a href="index.html" class="logo-header">Community Science Museum</a></li>
-                <li><a href="visit-us.html" class="nav-header">Visit Us</a></li>
-                <li><a href="explore.html" class="nav-header">Explore</a></li>
-                <li><a href="exhibitions-and-events.html" class="nav-header">Exhibitions and Events</a></li>
-                <li><a href="booking.html" class="nav-header">Booking</a></li>
-                <li><a href="get-involved.html" class="nav-header">Get Involved</a></li>
-            </ul>
+        <nav class="header-items">
+            <div>
+                <label for="menu-checkbox" id="menu-icon" class="hamburger-icon" aria-label="Like this item"><i class="fa-solid fa-bars"></i></label>
+                <input type="checkbox" id="menu-checkbox">
+                <ul class="header-content">
+                    <li><a href="visit-us.html" class="nav-header">Visit Us</a></li>
+                    <li><a href="explore.html" class="nav-header">Explore</a></li>
+                    <li><a href="exhibitions-and-events.html" class="nav-header">Exhibitions and Events</a></li>
+                    <li><a href="booking.html" class="nav-header">Booking</a></li>
+                    <li><a href="get-involved.html" class="nav-header">Get Involved</a></li>
+                </ul>
+            </div>
+            <a href="index.html" class="logo-header"><img src="images/header-logo.jpg" class="logo-header"></a>
         </nav>
     </header>
     <main>

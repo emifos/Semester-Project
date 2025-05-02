@@ -2,6 +2,11 @@ body{
     margin: 0;
 }
 
+main {
+    margin: 0 auto;
+    max-width: 1920px;
+}
+
 /* Font */
 .nav-header,
 h4, 
@@ -12,11 +17,11 @@ h4,
 p, 
 .booking-form,
 .site-nav,
-.dropdown-explore{
+.dropdown-explore,
+.footer-headline{
     font-family:'Asap', Arial, Helvetica, sans-serif;
 }
 
-.logo-header,
 .logo-footer,
 h3,
 h1,
@@ -31,14 +36,9 @@ header{
     background-color: #EEE8FA;
 }
 
-.header-content{
-    margin: 0;
-    list-style: none;
-}
-
 .logo-header{
-    color: #713D9C;
-    font-size: 1.75rem;
+    width: 250px;
+    padding: 10px 20px 10px 0px;
 }
 
 a{
@@ -63,36 +63,42 @@ a{
 .hamburger-icon {
     color: #713d9c;
     font-size: 2rem;
-    margin: 10px;
+    padding: 20px 0px 20px 20px;
 }
 
 .header-items {
     display: flex;
     justify-content: space-between;
-    padding: 20px 20px;
+    align-items: center;
 }
 
 .header-content {
     position: absolute;
     background-color: #eee8fa;
-    padding: 20px 200px 400px 10px;
+    padding: 20px 100px 320px 20px;
+    margin: 0;
+    list-style: none;
+    margin-top: 15px;
 }
 
 .header-content li {
     margin: 30px 0px;
-    text-decoration: underline;
-    text-decoration-color: #47464B;
+    border-bottom: 1px solid #000000;
+    padding: 10px 160px 10px 0px;
 }
 
 footer{
     background-color: #262626;
+    margin-top: 60px;
 }
 
 .logo-footer{
     color: #D87124;
+    width: 250px;
 }
 
-h4{
+h4,
+.footer-headline{
     font-size: 0.938rem;
     color: #D87124;
     font-weight: 600;
@@ -101,10 +107,45 @@ h4{
 .footer-content{
     color: #FFFFFF;
     font-size: 0.813rem;
+    margin: 5px;
 }
 
 .fa-brands{
     color: #FFFFFF;
+}
+
+.footer-desktop {
+    display: none;
+}
+
+.footer-mobile {
+    display: block;
+    justify-items: center;
+}
+
+.footer-opening-hours {
+    display: flex;
+    gap: 30px;
+    padding-bottom: 10px;
+}
+
+.footer-headline-1,
+.footer-headline-2,
+.footer-headline-3 {
+    padding-bottom: 20px;
+}
+
+.footer-contact-us {
+    justify-items: center;
+}
+
+.footer-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-follow-us {
+    justify-self: center;
 }
 
 /* Heading and text */
@@ -192,6 +233,12 @@ p{
 
 .home-h2 {
     margin-left: 45px;
+}
+
+.home-paragraph {
+    width: 850px;
+    justify-self: center;
+    margin: 60px 0px;
 }
 
 /* Explore page */

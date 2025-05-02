@@ -19,8 +19,8 @@
         flex-direction: row;
         position: static;
         background: none;
-        padding: 0px 40px 0px 0px;
-        gap: 35px;
+        padding: 0px 80px 0px 0px;
+        gap: 50px;
     }
 
     .header-items {
@@ -30,10 +30,46 @@
 
     .logo-header {
         align-self: center;
+        padding: 20px;
+        width: 290px;
     }
 
     .header-content li {
         text-decoration: none;
+        border-bottom: none;
+        padding: 0px;
     }
+
+    .footer-mobile {
+        display: none;
+    }
+
+    .footer-desktop {
+        display: grid;
+        grid-template-columns: 1fr auto auto auto;
+        gap: 120px;
+        margin: 0px 40px;
+        padding-bottom: 30px;
+    }
+
+    .logo-footer {
+        width: 290px;
+        align-self: center;
+    }
+
+    .desktop-opening-hours {
+        display: flex;
+        gap: 20px;
+    }
+
+    .footer-headline-desktop {
+        margin-bottom: 8px;
+    }
+
+   
+}
+
+/* Tablet and Desktop */
+@media (min-width:600px) {
 
 }
