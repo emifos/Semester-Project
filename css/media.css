@@ -66,6 +66,20 @@
         margin-bottom: 8px;
     }
 
+    .footer-icons-desktop {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .fa-facebook-f {
+        padding: 0px 13px;
+    }
+
+    .fa-youtube {
+        padding: 0px 10px;
+    }
+
    
 }
 
