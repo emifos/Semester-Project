@@ -10,6 +10,8 @@
 
 /* Desktop */
 @media (min-width:1200px){
+
+/* Header and Footer*/    
     .hamburger-icon {
         display: none;
     }
@@ -85,5 +87,40 @@
 
 /* Tablet and Desktop */
 @media (min-width:600px) {
+
+    /* Explore */
+    .explore-nav {
+        display: flex;
+        margin: 10px;
+    }
+
+    .site-nav {
+        padding: 2px;
+    }
+
+    .explore-image-girl {
+        display:block;
+        background-size: cover;
+        height: 800px;
+        width: 100%;
+        object-fit: contain;
+        
+    }
+
+
+    .explore-image-books{
+        display:block;
+        height: 800px;
+        background-size: cover;
+        
+    
+    }
+
+    .explore-image-hands {
+        display: block;
+        height: 800px;
+        background-size: cover;
+
+    }
 
 }

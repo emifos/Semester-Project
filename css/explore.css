@@ -1,0 +1,37 @@
+
+.explore-nav{
+    display: none;
+}
+
+.explore-image-girl {
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+    
+}
+
+
+.explore-image-books{
+    display: none;
+ 
+}
+
+
+.explore-image-hands {
+    display: none;
+
+}
+
+.explore-paragraph {
+    
+
+}
+
+
+.dropdown-explore{
+    justify-items: center;
+    padding: 5px;
+    margin:10px 30px ;
+}
+
