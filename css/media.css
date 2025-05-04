@@ -1,10 +1,18 @@
 /* Phone */
 @media (max-width:599px){
 
+
 }
 
 /* Tablet */
 @media (min-width:600px) and (max-width:1199px){
+ /* Explore */
+
+    .explore-paragraph {
+        max-width: 600px;
+        margin: auto;
+    
+    }
 
 }
 
@@ -82,12 +90,7 @@
         padding: 0px 10px;
     }
 
-   
-}
-
-/* Tablet and Desktop */
-@media (min-width:600px) {
-
+    
     /* Explore */
     .explore-nav {
         display: flex;
@@ -98,29 +101,66 @@
         padding: 2px;
     }
 
-    .explore-image-girl {
+    .explore-image-girl,
+    .explore-image-books,
+    .explore-image-hands{
         display:block;
         background-size: cover;
-        height: 800px;
-        width: 100%;
-        object-fit: contain;
+        height: 600px;
         
     }
 
-
-    .explore-image-books{
-        display:block;
-        height: 800px;
-        background-size: cover;
-        
-    
+    .explore-paragraph {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 120px;
+        align-items: center;
+        justify-items: center;
+        margin-top: 50px;
     }
 
-    .explore-image-hands {
-        display: block;
-        height: 800px;
-        background-size: cover;
 
     }
+
+/* Phone and Tablet*/
+
+@media (max-width:1199px) {
+
+/* Explore */ 
+.explore-h1{
+    background-image: url(../images/girl-museum-image.jpg);
+    height: 650px;
+    background-size: cover;
+    background-position-y: bottom;  
+    position: relative;
 
 }
+
+.explore-phone-image {
+    position: relative;
+    z-index: 2;
+    color: #FFFFFF;
+    margin-top: 0;
+    top: 90%;
+    left: 10%;
+}
+
+.explore-h1::before {
+    content: '';
+    height: 650px;
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+ }
+    
+}
+
+/* Tablet and Desktop */
+@media (min-width:600px) {
+
+
+}
+
+
+
+
