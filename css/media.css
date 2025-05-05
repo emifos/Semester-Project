@@ -50,7 +50,6 @@
 
 /* Desktop */
 @media (min-width:1200px){
-
 /* Header and Footer*/    
     .hamburger-icon {
         display: none;
@@ -122,14 +121,14 @@
         padding: 0px 10px;
     }
 
-    /* Homepage */
+/* Homepage */
     .h1-home,
     .home-banner-text {
         top: 77%;
     }
 
     
-    /* Explore */
+/* Explore */
     .explore-nav {
         display: flex;
         margin: 0px 10px;
@@ -163,65 +162,139 @@
         border-bottom: none;
     }
 
-    .explore-h1 {
-        margin-left: 50px;
-    }
-
     .explore-h3 {
         margin: 0px;
     }
 
-    .explore-phone-image {
+/* Explore and Exhibition */
+    .explore-h1,
+    .exhibition-h1 {
+        margin-left: 50px;
+    }
+
+    .explore-phone-image,
+    .exhibition-phone-image {
         margin-bottom: 5px;
     }
 
+/* Exhibition */
+    .exhibition-nav{
+        display: flex;
+        margin: 0px 10px;
     }
+    .special-events {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
+        background-color: #f5f1fc;
+        width: 100%;
+        padding: 20px 0px 50px 0px;
+        margin-top: 30px;
+    }
+
+    .event-image {
+        max-width: 350px;
+    }
+
+    .event-paragraph-text {
+        max-width: 350px;
+        margin: 0px;
+    }
+
+    .our-exhibitions {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        align-items: center;
+        background-color: #f5f1fc;
+        justify-items: center;
+    }
+
+    .test {
+        display: grid;
+        gap: 60px;
+        background-color: white;
+        width: 100%;
+    }
+
+    .exhibition-img {
+        margin-top: 0px;
+    }
+
+    .exhibition-h2 {
+        margin: 40px 50px;
+    }
+
+    .event-button {
+        grid-column-start: 3;
+    }
+
+}
 
 
 /* Phone and Tablet*/
 @media (max-width:1199px) {
 /* Homepage */
-.home-section-img {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+    .home-section-img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
-.home-paragraph {
-    width: 80%;
-    margin: 40px 20px;
-}
+    .home-paragraph {
+        width: 80%;
+        margin: 40px 20px;
+    }
 
-.home-img-link img {
-    margin: 10px 0px;
-}
+    .home-img-link img {
+        margin: 10px 0px;
+    }
 
 /* Explore */ 
-.explore-h1{
-    background-image: url(../images/girl-museum-image.jpg);
-    height: 650px;
-    background-size: cover;
-    background-position-y: bottom;  
-    position: relative;
-}
+    .explore-h1{
+        background-image: url(../images/girl-museum-image.jpg);
+    }
 
-.explore-phone-image {
-    position: relative;
-    z-index: 2;
-    color: #FFFFFF;
-    margin-top: 0;
-    top: 90%;
-    left: 10%;
-    width: 90%;
-}
+    .explore-phone-image {
+            top: 90%;
+    }
 
-.explore-h1::before {
-    content: '';
-    height: 650px;
-    position: absolute;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.5);
- }
+/* Explore and Exhibition */
+    .explore-h1,
+    .exhibition-h1 {
+        height: 650px;
+        background-size: cover;
+        background-position-y: bottom;  
+        position: relative;
+    }
+
+    .explore-phone-image,
+    .exhibition-phone-image {
+        position: relative;
+        z-index: 2;
+        color: #FFFFFF;
+        margin-top: 0;
+        left: 10%;
+        width: 90%;
+    }
+
+    .explore-h1::before,
+    .exhibition-h1::before {
+        content: '';
+        height: 650px;
+        position: absolute;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.5);
+    }
+
+/* Exhibitions and events */
+    .exhibition-h1 {
+        background-image: url(../images/night-at-museum-image.jpg);
+    }
+
+    .exhibition-phone-image {
+        top: 80%;
+    }
     
 }
 
@@ -237,6 +310,15 @@
         left: 5%;
     }
 
+/* Explore */
+    .dropdown-explore {
+        width: 400px;
+    }
+
+/* Exhibition and events */
+    .exhibition-paragraph-text {
+        margin: 0px;
+    }
 }
 
 
