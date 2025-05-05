@@ -38,7 +38,6 @@ header{
 
 .logo-header{
     width: 250px;
-    padding: 10px 20px 10px 0px;
 }
 
 a{
@@ -70,6 +69,7 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 15px 0px;
 }
 
 .header-content {
@@ -78,7 +78,6 @@ a{
     padding: 20px 100px 320px 20px;
     margin: 0;
     list-style: none;
-    margin-top: 15px;
     z-index: 3;
 }
 
@@ -124,8 +123,21 @@ h4,
     justify-items: center;
 }
 
+.footer-dropdown {
+    border-bottom: solid #D87124;
+    padding: 5px 8px 0px 8px;
+    margin-bottom: 10px;
+    width: 50%;
+}
+
+summary {
+    list-style-position: outside;
+    padding-inline-start: 5px;
+}
+
 .footer-opening-hours {
     display: flex;
+    justify-self: center;
     gap: 30px;
     padding-bottom: 10px;
 }
@@ -203,6 +215,29 @@ p{
     background-size: cover;
     height: 650px;
     background-position-x: right;
+    position: relative;
+}
+
+.banner-home::before {
+    content: '';
+    height: 650px;
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.home-banner-text {
+    color: #ffffff;
+}
+
+.home-banner-text,
+.h1-home {
+    position: relative;
+    z-index: 2;
+    margin-top: 0;
+    top: 65%;
+    left: 10%;
+    width: 90%;
 }
 
 .home-img-link {
@@ -231,6 +266,7 @@ p{
     padding: 19px 30px;
     box-sizing: border-box;
     width: 100%;
+    margin: 20px 0px;
 }
 
 .home-section-img {

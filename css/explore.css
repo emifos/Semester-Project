@@ -15,19 +15,26 @@
 
 }
 
-
 .dropdown-explore{
-    justify-items: center;
     padding: 5px;
-    margin:10px 30px ;
+    margin:10px 30px;
+    border-bottom: solid #000;
+    width: 300px;
 }
-
 
 .explore-button {
     justify-self: center;
-    margin: 40px 0px;
+    margin: 50px 0px;
 }
 
 .explore-paragraph-top {
     margin-top: 0px;
+}
+
+.explore-dropdown-content {
+    margin: 40px 0px;
+}
+
+.explore-paragraph-text {
+    border-bottom: solid #000;
 }
