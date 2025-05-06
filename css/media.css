@@ -46,6 +46,25 @@
         width: 40%;
     }
 
+ /* Visit us */
+
+    .visit-us-h1 {
+        margin: 20px 50px;
+    }
+
+    .visit-us-paragraph {
+        max-width: 600px;
+        margin: auto;
+    }
+
+    .cafe-image, 
+    .shop-image {
+        display: block;
+        justify-self: center;
+
+    }
+
+  
 }
 
 /* Desktop */
@@ -229,6 +248,56 @@
         grid-column-start: 3;
     }
 
+ /* Visit us */
+    .visit-us-paragraph-1-2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+    }
+
+    .visit-us-opening-hours-backround {
+        background-color: #FFFFFF;
+        margin: 0px;
+
+    }
+
+    .visit-us-opening-hours {
+        border-left: 1px solid black;
+        padding-left: 140px;
+
+    }
+
+    .visit-us-button {
+        grid-column-start: 2;
+        padding-left: 100px;
+        
+    }
+
+    .visit-us-text {
+        margin: 50px 60px 0px 60px;
+    }
+
+
+    .visit-us-paragraph-3-4 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        justify-items: center;
+        background-color: #f5f1fc;
+        margin: 0px;
+        padding-bottom: 50px;
+    }
+    
+    .cafe-image{
+        margin-top: 30px;
+    }
+
+    .food-and-drink,
+    .shop {
+        max-width: 600px;
+    }
+
+  
 }
 
 

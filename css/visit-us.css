@@ -1,0 +1,39 @@
+.visit-us-h1 {
+    margin: 20px 20px;
+}
+
+
+.visit-us-opening-hours-backround {
+    background-color: #f5f1fc;
+    margin: 40px 0px 0px 0px;
+    padding: 20px;
+    
+}
+
+.visit-us-paragraph {
+    margin: 0px 20px;
+}
+
+.visit-us-hours {
+    justify-self: center;
+}
+
+.visit-us-opening-hours {
+    display: flex;
+    gap: 30px;
+    justify-self: center;
+}
+
+.visit-us-button {
+    justify-self: center;
+    margin: 50px 0px;
+}
+
+.cafe-image,
+.shop-image {
+    max-width: 600px;
+    width: 100%;
+    
+}
+
+
