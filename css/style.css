@@ -310,40 +310,6 @@ p{
     font-size: 1.25rem;
 }
 
-/* Confirmation page*/
-.h1-confirmation{
-    color: #FFFFFF;
-    font-weight: 700;
-    font-size: 2rem;
-    background-color: #000000;
-}
-
-.confirmation-content{
-    color: #FFFFFF;
-}
-
-.confirmation-text,
-.confirmation-logo{
-    color: #FFFFFF;
-}
-
-.confirmation-logo{
-    font-size: 1.125rem;
-}
-
-.confirmation-text{
-    font-size: 1.25rem;
-    line-height: 35px;
-}
-
-/* Get Involved page */
-.h1-get-involved{
-    font-weight: 700;
-    font-size: 2.25rem;
-    color: #D87124;
-    
-}
-
 /* Explore - Exhibitions and Events */
 .explore-nav, 
 .exhibition-nav{
@@ -356,7 +322,7 @@ p{
 }
 
 /* get involved and confirmation image */
-.h1-get-involved,
+.get-involved-banner,
 .confirmation-content {
     background-image: url('../images/museum-overlook-image.jpg');
     background-size: cover;
