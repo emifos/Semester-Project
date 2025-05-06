@@ -1,0 +1,50 @@
+.h1-confirmation{
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.confirmation-text{
+    font-size: 1.125rem;
+    line-height: 35px;
+    max-width: 580px;
+    margin: 15px 20px;
+}
+
+.confirmation-logo {
+    width: 300px;
+    display: block;
+    margin-top: 50px;
+}
+
+.confirmation-content {
+    position: relative;
+    background-position-x: center;
+}
+
+.confirmation-content::before {
+    content: '';
+    height: 687px;
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.confirmation-text,
+.confirmation-logo,
+.h1-confirmation,
+.fa-circle-check{
+    color: #FFFFFF;
+    z-index: 2;
+    position: relative; 
+    justify-self: center;
+    top: 195px;
+}
+
+.fa-circle-check {
+    color: #D87124;
+    font-size: 5rem;
+    align-items: center;
+    display: block;
+
+}
+
