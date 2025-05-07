@@ -1,0 +1,78 @@
+.booking-calendar {
+    margin: auto;
+    max-width: 500px;
+}
+
+table,
+th,
+td {
+    text-align: center;
+    width: 100%;
+    table-layout: fixed;   
+}
+
+td {
+    background-color: #f5f1fc;
+}
+
+tr,
+td {
+    padding: 15px;
+    border: 3px solid #fff;
+}
+
+td:hover {
+    background-color: #713d9c;
+    color: #fff;
+}
+
+.booking-calendar-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 0px auto;
+    max-width: 500px;
+    padding: 10px;
+}
+
+.booking-calendar-week,
+.booking-calendar-days {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.booking-calendar-week {
+    gap: 7px;
+}
+
+.booking-date {
+    background-color: #f5f1fc;
+    padding: 15px 10px;
+    text-align: center;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.booking-date:hover {
+    background-color: #713d9c;
+    color: #fff;
+}
+
+.booking-date-grey:hover {
+    background-color:#d9d9d9;
+    color: #000;
+}
+
+.booking-date-grey {
+    background-color: #d9d9d9;
+}
+
+.booking-calendar-days {
+    text-align:center;
+}
+
+.booking-specific-days {
+    margin: 30px 0px 0px 0px;
+}
