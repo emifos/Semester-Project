@@ -27,12 +27,10 @@ p,
     font-family:'Asap', Arial, Helvetica, sans-serif;
 }
 
-.logo-footer,
 h3,
 h1,
 .button,
-h2,
-.confirmation-logo{
+h2{
     font-family:'Coiny', Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -125,7 +123,6 @@ h4,
 
 .footer-mobile {
     display: block;
-    justify-items: center;
 }
 
 .footer-dropdown {
@@ -133,6 +130,7 @@ h4,
     padding: 5px 8px 0px 8px;
     margin-bottom: 10px;
     width: 50%;
+    margin: 0px auto;
 }
 
 summary {
@@ -142,9 +140,14 @@ summary {
 
 .footer-opening-hours {
     display: flex;
-    justify-self: center;
+    justify-content: center;
     gap: 30px;
     padding-bottom: 10px;
+}
+
+.footer-mobile-logo {
+    margin: 0px auto;
+    width: 250px;
 }
 
 .footer-headline-1,
@@ -153,13 +156,22 @@ summary {
     padding-bottom: 20px;
 }
 
+.footer-headline-3 {
+    margin: 0px auto;
+    width: 80px;
+}
+
 .footer-contact-us {
-    justify-items: center;
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer-icons {
     display: flex;
     gap: 20px;
+    justify-content: center;
 }
 
 .footer-follow-us {
@@ -236,10 +248,10 @@ p{
 .h1-home {
     position: relative;
     z-index: 2;
-    margin-top: 0;
-    top: 65%;
-    left: 10%;
-    width: 90%;
+    margin: 0;
+    top: 430px;
+    padding-left: 20px;
+    
 }
 
 .home-img-link {
@@ -284,13 +296,16 @@ p{
 }
 
 .home-h2 {
-    margin-left: 45px;
+    margin: 0px 20px;
 }
 
 .home-paragraph {
-    width: 850px;
-    justify-self: center;
     margin: 60px 0px;
+}
+
+.home-paragraph-text {
+    margin: 0px auto;
+    max-width: 850px;
 }
 
 /* Explore page */

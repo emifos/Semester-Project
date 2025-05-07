@@ -26,8 +26,15 @@
 
 .exhibition-button,
 .event-button {
-    margin: 50px 0px;
-    justify-self: center;
+    margin: 50px auto;
+}
+
+.book-event-button {
+    max-width: 206px;
+}
+
+.exhibition-button {
+    max-width: 190px;
 }
 
 .exhibition-h2 {

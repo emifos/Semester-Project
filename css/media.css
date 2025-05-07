@@ -30,11 +30,6 @@
         width: 100%;
     }
 
-    .home-banner-text,
-    .h1-home {
-        top: 75%;
-    }
-
 
  /* Explore */
     .explore-paragraph {
@@ -55,12 +50,13 @@
     .visit-us-paragraph {
         max-width: 600px;
         margin: auto;
+        padding: 0px 20px;
     }
 
     .cafe-image, 
     .shop-image {
         display: block;
-        justify-self: center;
+        margin: 0px auto;
 
     }
 
@@ -141,10 +137,9 @@
     }
 
 /* Homepage */
-    .h1-home,
-    .home-banner-text {
-        top: 77%;
-    }
+.home-h2 {
+    margin-left: 50px;
+}
 
     
 /* Explore */
@@ -229,7 +224,7 @@
         justify-items: center;
     }
 
-    .test {
+    .exhibition {
         display: grid;
         gap: 60px;
         background-color: white;
@@ -252,31 +247,24 @@
     .visit-us-paragraph-1-2 {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        
     }
 
     .visit-us-opening-hours-backround {
         background-color: #FFFFFF;
         margin: 0px;
-
     }
 
     .visit-us-opening-hours {
         border-left: 1px solid black;
-        padding-left: 140px;
-
     }
 
     .visit-us-button {
         grid-column-start: 2;
-        padding-left: 100px;
-        
     }
 
     .visit-us-text {
         margin: 50px 60px 0px 60px;
     }
-
 
     .visit-us-paragraph-3-4 {
         display: grid;
@@ -374,10 +362,12 @@
         max-width: 500px;
     }
 
-    .h1-home,
-    .home-banner-text{
-        left: 5%;
+    .home-banner-text,
+    .h1-home {
+        top: 500px;
+        padding-left: 50px;
     }
+
 
 /* Explore */
     .dropdown-explore {

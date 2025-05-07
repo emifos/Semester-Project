@@ -21,8 +21,8 @@
 }
 
 .explore-button {
-    justify-self: center;
-    margin: 50px 0px;
+    margin: 50px auto;
+    max-width: 200px;
 }
 
 .explore-paragraph-top {

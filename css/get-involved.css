@@ -23,13 +23,14 @@
 }
 
 .get-involved-paragraph {
-    margin: 20px;
-    justify-self: center;
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 0px 20px;
 }
 
 .get-involved-button {
-    justify-self: center;
-    margin: 50px 0px;
+    margin: 50px auto;
+    max-width: 199px;
 }
 
 @media (min-width:600px) and (max-width:1199px){
@@ -43,11 +44,12 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         column-gap: 60px;
-        margin: 0px 20px;
+        margin: 0px 60px;
+        max-width: 1500px;
     }
 
     .get-involved-button {
         grid-column-start: 3;
-        margin: 20px 0px;
+        margin: 20px auto;
     }
 }

@@ -15,7 +15,8 @@
 }
 
 .visit-us-hours {
-    justify-self: center;
+    margin: 0px auto;
+    max-width: 100px;
 }
 
 .visit-us-opening-hours {
@@ -26,8 +27,8 @@
 }
 
 .visit-us-button {
-    justify-self: center;
-    margin: 50px 0px;
+    margin: 50px auto;
+    max-width: 178px;
 }
 
 .cafe-image,
