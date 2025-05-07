@@ -1,32 +1,4 @@
 .booking-calendar {
-    margin: auto;
-    max-width: 500px;
-}
-
-table,
-th,
-td {
-    text-align: center;
-    width: 100%;
-    table-layout: fixed;   
-}
-
-td {
-    background-color: #f5f1fc;
-}
-
-tr,
-td {
-    padding: 15px;
-    border: 3px solid #fff;
-}
-
-td:hover {
-    background-color: #713d9c;
-    color: #fff;
-}
-
-.booking-calendar-1 {
     display: flex;
     flex-direction: column;
     gap: 5px;
@@ -38,7 +10,7 @@ td:hover {
 .booking-calendar-week,
 .booking-calendar-days {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(7, 1fr);
 }
 
 .booking-calendar-week {
@@ -73,7 +45,7 @@ input[type="radio"] {
 }
 
 .booking-calendar-days {
-    text-align:center;
+    text-align: center; 
 }
 
 .booking-specific-days {
@@ -81,6 +53,11 @@ input[type="radio"] {
 }
 
 .date-hidden {
+    color: #f5f1fc;
+}
+
+.booking-date-hidden label:hover {
+    background-color: #f5f1fc;
     color: #f5f1fc;
 }
 
