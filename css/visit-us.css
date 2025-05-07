@@ -21,7 +21,8 @@
 .visit-us-opening-hours {
     display: flex;
     gap: 30px;
-    justify-self: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .visit-us-button {
