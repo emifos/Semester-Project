@@ -65,6 +65,11 @@ input[type="radio"] {
     color: #000;
 }
 
+input:checked {
+    background-color: #713d9c;
+    color: #fff;
+}
+
 .booking-date-grey {
     background-color: #d9d9d9;
 }
