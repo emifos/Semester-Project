@@ -45,10 +45,12 @@ td:hover {
     gap: 7px;
 }
 
-.booking-date {
+.booking-date label {
     background-color: #f5f1fc;
     padding: 15px 10px;
+    display: block;
     text-align: center;
+    cursor: pointer;
 }
 
 input[type="radio"] {
@@ -56,22 +58,17 @@ input[type="radio"] {
     opacity: 0;
 }
 
-.booking-date:hover {
+.booking-date label:hover {
     background-color: #713d9c;
     color: #fff;
 }
 
-.booking-date-grey:hover {
+.booking-date-grey label:hover {
     background-color:#d9d9d9;
     color: #000;
 }
 
-input[type="radio"]:checked + .booking-date-1 {
-    background-color: #713d9c;
-    color: #fff;
-}
-
-.booking-date-grey {
+.booking-date-grey label {
     background-color: #d9d9d9;
 }
 
@@ -81,4 +78,13 @@ input[type="radio"]:checked + .booking-date-1 {
 
 .booking-specific-days {
     margin: 30px 0px 0px 0px;
+}
+
+.date-hidden {
+    color: #f5f1fc;
+}
+
+input[type="radio"]:checked + label {
+    background-color: #713d9c;
+    color: #fff;
 }
