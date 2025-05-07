@@ -36,26 +36,38 @@
     </header>
     <main>
         <h1>Booking and contact form</h1>
-            <details class="booking-form">
-                <summary>Tickets</summary>
-                <p>Entry ticket 0 NOK</p>
-                <p>Guided tours 70 NOK</p>
-                <p>Young Stars club 70 NOK</p>
-                <p>Holiday club 70 NOK</p>
+            <details class="booking-form-tickets">
+                <summary class="tickets-text">Tickets</summary>
+                <p class="tickets-text">Entry ticket 0 NOK</p>
+                <p class="tickets-text">Guided tours 70 NOK</p>
+                <p class="tickets-text">Young Stars club 70 NOK</p>
+                <p class="tickets-text">Holiday club 70 NOK</p>
             </details>
-            <form class="booking-form">        
-                <label for="teller1">Kids</label>
-                <input type="number" id="teller1" name="teller" value="0" min="0" max="10" title="Enter the number of kids">
-                <label for="teller2">Adults</label>
-                <input type="number" id="teller2" name="teller" value="0" min="0" max="10" title="Enter the number of adults">
-            </form>
-            <form class="booking-form">
-                <label for="name1">Name</label>
-                <input type="text" id="name1" name="name" title="Enter your name" placeholder="Name" required>
-                <label for="email1">Email</label>
-                <input type="email" id="email1" name="email" title="Enter your email address" placeholder="Email" required>
-                <label for="phonenumber">Phone number</label>
-                <input type="tel" id="phonenumber" name="phonenumber" title="Enter your phone number" placeholder="Phone number" required>
+            <div class="kids-adults">
+                <form class="booking-form-tickets">  
+                    <div class="kids-label">    
+                        <label for="teller1">Kids</label>
+                        <input type="number" id="teller1" name="teller" value="0" min="0" max="10" title="Enter the number of kids">
+                    </div>
+                    <div class="adults-label">
+                        <label for="teller2">Adults</label>
+                        <input type="number" id="teller2" name="teller" value="0" min="0" max="10" title="Enter the number of adults">
+                    </div>
+                </form>
+            </div>
+            <form class="booking-form-inputs">
+                <div>
+                    <label for="name1"></label>
+                    <input type="text" id="name1" name="name" title="Enter your name" placeholder="Name" required class="input-fields">
+                </div>
+                <div>
+                    <label for="email1"></label>
+                    <input type="email" id="email1" name="email" title="Enter your email address" placeholder="Email" required class="input-fields">
+                </div>
+                <div>
+                    <label for="phonenumber"></label>
+                    <input type="tel" id="phonenumber" name="phonenumber" title="Enter your phone number" placeholder="Phone number" required class="input-fields">
+                </div>
             </form>
             <a href="confirmation.html" class="button">Buy tickets</a>
             <form class="booking-form">
@@ -282,13 +294,13 @@
             </form>
             <h3>Contact form</h3>
                 <p>For special inquiries</p>
-                <form class="booking-form">
-                    <label for="name2">Name</label>
-                    <input type="text" id="name2" name="name" title="Enter your name" placeholder="Name" required>
-                    <label for="email2">Email</label>
-                    <input type="email" id="email2" name="email" title="Enter your email address" placeholder="Email" required>
-                    <label for="message">Message</label>
-                    <input type="text" id="message" name="message" title="Enter your message" placeholder="Message" required>
+                <form class="booking-form-inputs">
+                    <label for="name2"></label>
+                    <input type="text" id="name2" name="name" title="Enter your name" placeholder="Name" required class="input-fields">
+                    <label for="email2"></label>
+                    <input type="email" id="email2" name="email" title="Enter your email address" placeholder="Email" required class="input-fields">
+                    <label for="message"></label>
+                    <input type="text" id="message" name="message" title="Enter your message" placeholder="Message" required class="input-fields-message">
                 </form>
                 <a href="confirmation.html" class="button">Submit</a>
     </main>

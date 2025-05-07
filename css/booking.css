@@ -88,3 +88,56 @@ input[type="radio"]:checked + label {
     background-color: #713d9c;
     color: #fff;
 }
+
+
+
+
+.booking-form-tickets {
+    background-color: #f5f1fc;
+   
+}
+
+.booking-form-tickets, 
+.input-fields,
+.input-fields-message{
+    margin: 10px;
+    width: 250px;
+    padding: 10px;
+    font-family: 'Asap';
+}
+
+.tickets-text {
+    border-bottom: 1px solid #713d9c;
+    padding: 5px 0px;
+    
+}
+
+.kids-adults {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.kids-label, 
+.adults-label {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+
+.booking-form-inputs {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.input-fields,
+.input-fields-message {
+    border-radius: 5px;
+    border-radius: 1px solid #0000;
+}
+
+.input-fields-message {
+    height: 70px;
+}
