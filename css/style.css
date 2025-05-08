@@ -246,3 +246,28 @@ p{
     min-height: 687px;
     background-color: black;
 }
+
+/* Coming Soon */
+
+.coming-soon-main {
+    flex: 1;
+}
+
+.coming-soon-body {
+    display: flex;
+    flex-direction: column;
+    height: 140vh;
+}
+
+.coming-soon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0px;
+    
+}
+
+.coming-soon-text {
+    margin: 0px;
+
+}
