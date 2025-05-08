@@ -47,7 +47,6 @@
     }
 
  /* Visit us */
-
     .visit-us-h1 {
         margin: 20px 50px;
     }
@@ -63,6 +62,20 @@
         display: block;
         margin: 0px auto;
 
+    }
+
+/* Booking */
+    .booking-content {
+        border: solid 1px #000;
+        border-radius: 5px;
+        margin: 0px 40px;
+        padding: 30px 0px;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    }
+
+/* Get Involved */
+    .get-involved-paragraph {
+        max-width: 600px;
     }
 
   
@@ -142,9 +155,9 @@
     }
 
 /* Homepage */
-.home-h2 {
-    margin-left: 50px;
-}
+    .home-h2 {
+        margin-left: 50px;
+    }
 
     
 /* Explore */
@@ -290,6 +303,37 @@
         max-width: 600px;
     }
 
+/* Booking */
+    .booking-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .booking-date label {
+        padding: 30px 10px;
+    }
+
+    .booking-calendar {
+        margin: 0px 10px 0px 0px;
+        padding: 0px;
+        max-width: 600px;
+    }
+
+
+/* Get Involved */
+    .get-involved-paragraph {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 60px;
+        margin: 0px 60px;
+        max-width: 1500px;
+    }
+
+    .get-involved-button {
+        grid-column-start: 3;
+        margin: 20px auto;
+    }
+
   
 }
 
@@ -382,6 +426,10 @@
     .exhibition-paragraph-text {
         margin: 0px;
     }
+
+
+
+
 }
 
 

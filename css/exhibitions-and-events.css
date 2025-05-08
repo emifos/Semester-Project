@@ -24,11 +24,6 @@
     align-items: center;
 }
 
-.exhibition-button,
-.event-button {
-    margin: 50px auto;
-}
-
 .book-event-button {
     max-width: 206px;
 }

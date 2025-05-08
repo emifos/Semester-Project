@@ -49,7 +49,7 @@ input[type="radio"] {
 }
 
 .booking-specific-days {
-    margin: 30px 0px 0px 0px;
+    margin: 0px;
 }
 
 .date-hidden {
@@ -66,20 +66,17 @@ input[type="radio"]:checked + label {
     color: #fff;
 }
 
-
-
-
 .booking-form-tickets {
     background-color: #f5f1fc;
-   
+    max-width: 500px;
+    padding: 25px;
 }
 
 .booking-form-tickets, 
 .input-fields,
 .input-fields-message{
-    margin: 10px;
-    width: 250px;
-    padding: 10px;
+    margin: 10px auto;
+    width: 300px;
     font-family: 'Asap';
 }
 
@@ -106,6 +103,7 @@ input[type="radio"]:checked + label {
 .booking-form-inputs {
     display: flex;
     flex-direction: column;
+    align-items: center;
 
 }
 
@@ -113,8 +111,41 @@ input[type="radio"]:checked + label {
 .input-fields-message {
     border-radius: 5px;
     border-radius: 1px solid #0000;
+    padding: 10px;
 }
 
 .input-fields-message {
     height: 70px;
+}
+
+.booking-form{
+    font-size: 1.25rem;
+}
+
+.booking-h1 {
+    margin: 20px;
+}
+
+.buy-tickets-button {
+    max-width: 178px;
+}
+
+.booking-submit-button {
+    max-width: 134px;
+}
+
+.booking-h3 {
+    align-self: center;
+    margin: 40px 176px 0px 20px;
+}
+
+.booking-text {
+    align-self: center;
+    margin: 5px 169px 0px 0px;
+}
+
+.booking-contact-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
 }

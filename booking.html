@@ -35,217 +35,230 @@
         </nav>
     </header>
     <main>
-        <h1>Booking and contact form</h1>
-            <details class="booking-form-tickets">
-                <summary class="tickets-text">Tickets</summary>
-                <p class="tickets-text">Entry ticket 0 NOK</p>
-                <p class="tickets-text">Guided tours 70 NOK</p>
-                <p class="tickets-text">Young Stars club 70 NOK</p>
-                <p class="tickets-text">Holiday club 70 NOK</p>
-            </details>
-            <div class="kids-adults">
-                <form class="booking-form-tickets">  
-                    <div class="kids-label">    
-                        <label for="teller1">Kids</label>
-                        <input type="number" id="teller1" name="teller" value="0" min="0" max="10" title="Enter the number of kids">
+        <h1 class="booking-h1">Booking and contact form</h1>
+        <div class="booking-content">
+            <div>
+                <details class="booking-form-tickets">
+                    <summary class="tickets-text">Tickets</summary>
+                    <p class="tickets-text">Entry ticket 0 NOK</p>
+                    <p>0 NOK</p>
+                    <p class="tickets-text">Guided tours 70 NOK</p>
+                    <p class="tickets-text">Young Stars club 70 NOK</p>
+                    <p class="tickets-text">Holiday club 70 NOK</p>
+                </details>
+                <div class="kids-adults">
+                    <form class="booking-form-tickets">  
+                        <div class="kids-label">    
+                            <label for="teller1">Kids</label>
+                            <input type="number" id="teller1" name="teller" value="0" min="0" max="10" title="Enter the number of kids">
+                        </div>
+                        <div class="adults-label">
+                            <label for="teller2">Adults</label>
+                            <input type="number" id="teller2" name="teller" value="0" min="0" max="10" title="Enter the number of adults">
+                        </div>
+                    </form>
+                </div>
+                <form class="booking-form-inputs">
+                    <div>
+                        <label for="name1"></label>
+                        <input type="text" id="name1" name="name" title="Enter your name" placeholder="Name" required class="input-fields">
                     </div>
-                    <div class="adults-label">
-                        <label for="teller2">Adults</label>
-                        <input type="number" id="teller2" name="teller" value="0" min="0" max="10" title="Enter the number of adults">
+                    <div>
+                        <label for="email1"></label>
+                        <input type="email" id="email1" name="email" title="Enter your email address" placeholder="Email" required class="input-fields">
+                    </div>
+                    <div>
+                        <label for="phonenumber"></label>
+                        <input type="tel" id="phonenumber" name="phonenumber" title="Enter your phone number" placeholder="Phone number" required class="input-fields">
                     </div>
                 </form>
+                <div class="buy-tickets-button">
+                    <a href="confirmation.html" class="button">Buy tickets</a>
+                </div>
             </div>
-            <form class="booking-form-inputs">
-                <div>
-                    <label for="name1"></label>
-                    <input type="text" id="name1" name="name" title="Enter your name" placeholder="Name" required class="input-fields">
-                </div>
-                <div>
-                    <label for="email1"></label>
-                    <input type="email" id="email1" name="email" title="Enter your email address" placeholder="Email" required class="input-fields">
-                </div>
-                <div>
-                    <label for="phonenumber"></label>
-                    <input type="tel" id="phonenumber" name="phonenumber" title="Enter your phone number" placeholder="Phone number" required class="input-fields">
-                </div>
-            </form>
-            <a href="confirmation.html" class="button">Buy tickets</a>
-            <form class="booking-form">
-                    <div class="booking-calendar">
-                        <p>May</p>
-                        <div class="booking-calendar-days">
-                            <p class="booking-specific-days">Mon</p>
-                            <p class="booking-specific-days">Tue</p>
-                            <p class="booking-specific-days">Wed</p>
-                            <p class="booking-specific-days">Thu</p>
-                            <p class="booking-specific-days">Fri</p>
-                            <p class="booking-specific-days">Sat</p>
-                            <p class="booking-specific-days">Sun</p>
-                        </div>
-                        <div class="booking-calendar-week">
-                            <div class="booking-date booking-date-hidden">
-                                <label for="d0" class="date-hidden">0</label>
-                                <input type="radio" id="d0" name="date">
+            <div>
+                <form class="booking-form">
+                        <div class="booking-calendar">
+                            <p>May 2025</p>
+                            <div class="booking-calendar-days">
+                                <p class="booking-specific-days">Mon</p>
+                                <p class="booking-specific-days">Tue</p>
+                                <p class="booking-specific-days">Wed</p>
+                                <p class="booking-specific-days">Thu</p>
+                                <p class="booking-specific-days">Fri</p>
+                                <p class="booking-specific-days">Sat</p>
+                                <p class="booking-specific-days">Sun</p>
                             </div>
-                            <div class="booking-date booking-date-hidden">
-                                <label for="d00" class="date-hidden">00</label>
-                                <input type="radio" id="d00" name="date">
+                            <div class="booking-calendar-week">
+                                <div class="booking-date booking-date-hidden">
+                                    <label for="d0" class="date-hidden">0</label>
+                                    <input type="radio" id="d0" name="date">
+                                </div>
+                                <div class="booking-date booking-date-hidden">
+                                    <label for="d00" class="date-hidden">00</label>
+                                    <input type="radio" id="d00" name="date">
+                                </div>
+                                <div class="booking-date booking-date-hidden">
+                                    <label for="d02" class="date-hidden">02</label>
+                                    <input type="radio" id="d02" name="date">
+                                </div>
+                                <div class="booking-date">
+                                    <input type="radio" id="d1" name="date">
+                                    <label for="d1">1</label>
+                                </div>
+                                <div class="booking-date">
+                                    <input type="radio" id="d2" name="date">
+                                    <label for="d2">2</label>
+                                </div>
+                                <div class="booking-date">
+                                    <input type="radio" id="d3" name="date">
+                                    <label for="d3">3</label>
+                                </div>
+                                <div class="booking-date">
+                                    <input type="radio" id="d4" name="date">
+                                    <label for="d4">4</label>
+                                </div>
                             </div>
-                            <div class="booking-date booking-date-hidden">
-                                <label for="d02" class="date-hidden">02</label>
-                                <input type="radio" id="d02" name="date">
-                            </div>
-                            <div class="booking-date">
-                                <input type="radio" id="d1" name="date">
-                                <label for="d1">1</label>
-                            </div>
-                            <div class="booking-date">
-                                <input type="radio" id="d2" name="date">
-                                <label for="d2">2</label>
-                            </div>
-                            <div class="booking-date">
-                                <input type="radio" id="d3" name="date">
-                                <label for="d3">3</label>
-                            </div>
-                            <div class="booking-date">
-                                <input type="radio" id="d4" name="date">
-                                <label for="d4">4</label>
-                            </div>
-                        </div>
-                        <div class="booking-calendar-week">
-                            <div class="booking-date booking-date-grey">
-                                <label for="d5">5</label>
-                                <input type="radio" id="d5" name="date">
-                            </div>
-                            <div class="booking-date">
-                                <input type="radio" id="d6" name="date">
-                                <label for="d6">6</label>
-                            </div>
-                            <div class="booking-date">
-                                <input type="radio" id="d7" name="date">
-                                <label for="d7">7</label>
-                            </div>
-                            <div class="booking-date">
-                                <input type="radio" id="d8" name="date">
-                                <label for="d8">8</label>
-                            </div>
-                            <div class="booking-date">
-                                <input type="radio" id="d9" name="date">
-                                <label for="d9">9</label>
-                            </div>
-                            <div class="booking-date">
-                                <input type="radio" id="d10" name="date">
-                                <label for="d10">10</label>
-                            </div>
-                            <div class="booking-date">
-                                <input type="radio" id="d11" name="date">
-                                <label for="d11">11</label>
+                            <div class="booking-calendar-week">
+                                <div class="booking-date booking-date-grey">
+                                    <label for="d5">5</label>
+                                    <input type="radio" id="d5" name="date">
+                                </div>
+                                <div class="booking-date">
+                                    <input type="radio" id="d6" name="date">
+                                    <label for="d6">6</label>
+                                </div>
+                                <div class="booking-date">
+                                    <input type="radio" id="d7" name="date">
+                                    <label for="d7">7</label>
+                                </div>
+                                <div class="booking-date">
+                                    <input type="radio" id="d8" name="date">
+                                    <label for="d8">8</label>
+                                </div>
+                                <div class="booking-date">
+                                    <input type="radio" id="d9" name="date">
+                                    <label for="d9">9</label>
+                                </div>
+                                <div class="booking-date">
+                                    <input type="radio" id="d10" name="date">
+                                    <label for="d10">10</label>
+                                </div>
+                                <div class="booking-date">
+                                    <input type="radio" id="d11" name="date">
+                                    <label for="d11">11</label>
 
+                                </div>
+                            </div>
+                            <div class="booking-calendar-week">
+                                <div class="booking-date booking-date-grey">
+                                    <label for="d12">12</label>
+                                    <input type="radio" id="d12" name="date">
+                                </div>
+                                <div class="booking-date">
+                                    <input type="radio" id="d13" name="date">
+                                    <label for="d13">13</label>
+                                </div>
+                                <div class="booking-date">
+                                    <input type="radio" id="d14" name="date">
+                                    <label for="d14">14</label>
+                                </div>
+                                <div class="booking-date">
+                                    <input type="radio" id="d15" name="date">
+                                    <label for="d15">15</label>
+                                </div>
+                                <div class="booking-date">
+                                    <input type="radio" id="d16" name="date">
+                                    <label for="d16">16</label>
+                                </div>
+                                <div class="booking-date">
+                                    <input type="radio" id="d17" name="date">
+                                    <label for="d17">17</label>
+                                </div>
+                                <div class="booking-date">
+                                    <input type="radio" id="d18" name="date">
+                                    <label for="d18">18</label>
+                                </div>
+                            </div>
+                            <div class="booking-calendar-week">
+                                <div class="booking-date booking-date-grey">
+                                    <label for="d19">19</label>
+                                    <input type="radio" id="d19" name="date">
+                                </div>
+                                <div class="booking-date">
+                                    <input type="radio" id="d20" name="date">
+                                    <label for="d20">20</label>
+                                </div>
+                                <div class="booking-date">
+                                    <input type="radio" id="d21" name="date">
+                                    <label for="d21">21</label>
+                                </div>
+                                <div class="booking-date">
+                                    <input type="radio" id="d22" name="date">
+                                    <label for="d22">22</label>
+                                </div>
+                                <div class="booking-date">
+                                    <input type="radio" id="d23" name="date">
+                                    <label for="d23">23</label>
+                                </div>
+                                <div class="booking-date">
+                                    <input type="radio" id="d24" name="date">
+                                    <label for="d24">24</label>
+                                </div>
+                                <div class="booking-date">
+                                    <input type="radio" id="d25" name="date">
+                                    <label for="d25">25</label>
+                                </div>
+                            </div>
+                            <div class="booking-calendar-week">
+                                <div class="booking-date booking-date-grey">
+                                    <label for="d26">26</label>
+                                    <input type="radio" id="d26" name="date">
+                                </div>
+                                <div class="booking-date">
+                                    <input type="radio" id="d27" name="date">
+                                    <label for="d27">27</label>
+                                </div>
+                                <div class="booking-date">
+                                    <input type="radio" id="d28" name="date">
+                                    <label for="d28">28</label>
+                                </div>
+                                <div class="booking-date">
+                                    <input type="radio" id="d29" name="date">
+                                    <label for="d29">29</label>
+                                </div>
+                                <div class="booking-date">
+                                    <input type="radio" id="d30" name="date">
+                                    <label for="d30">30</label>
+                                </div>
+                                <div class="booking-date">
+                                    <input type="radio" id="d31" name="date">
+                                    <label for="d31">31</label>
+                                </div>
+                                <div class="booking-date booking-date-hidden">
+                                    <label for="d01" class="date-hidden">01</label>
+                                    <input type="radio" id="d01" name="date">
+                                </div>
                             </div>
                         </div>
-                        <div class="booking-calendar-week">
-                            <div class="booking-date booking-date-grey">
-                                <label for="d12">12</label>
-                                <input type="radio" id="d12" name="date">
-                            </div>
-                            <div class="booking-date">
-                                <input type="radio" id="d13" name="date">
-                                <label for="d13">13</label>
-                            </div>
-                            <div class="booking-date">
-                                <input type="radio" id="d14" name="date">
-                                <label for="d14">14</label>
-                            </div>
-                            <div class="booking-date">
-                                <input type="radio" id="d15" name="date">
-                                <label for="d15">15</label>
-                            </div>
-                            <div class="booking-date">
-                                <input type="radio" id="d16" name="date">
-                                <label for="d16">16</label>
-                            </div>
-                            <div class="booking-date">
-                                <input type="radio" id="d17" name="date">
-                                <label for="d17">17</label>
-                            </div>
-                            <div class="booking-date">
-                                <input type="radio" id="d18" name="date">
-                                <label for="d18">18</label>
-                            </div>
-                        </div>
-                        <div class="booking-calendar-week">
-                            <div class="booking-date booking-date-grey">
-                                <label for="d19">19</label>
-                                <input type="radio" id="d19" name="date">
-                            </div>
-                            <div class="booking-date">
-                                <input type="radio" id="d20" name="date">
-                                <label for="d20">20</label>
-                            </div>
-                            <div class="booking-date">
-                                <input type="radio" id="d21" name="date">
-                                <label for="d21">21</label>
-                            </div>
-                            <div class="booking-date">
-                                <input type="radio" id="d22" name="date">
-                                <label for="d22">22</label>
-                            </div>
-                            <div class="booking-date">
-                                <input type="radio" id="d23" name="date">
-                                <label for="d23">23</label>
-                            </div>
-                            <div class="booking-date">
-                                <input type="radio" id="d24" name="date">
-                                <label for="d24">24</label>
-                            </div>
-                            <div class="booking-date">
-                                <input type="radio" id="d25" name="date">
-                                <label for="d25">25</label>
-                            </div>
-                        </div>
-                        <div class="booking-calendar-week">
-                            <div class="booking-date booking-date-grey">
-                                <label for="d26">26</label>
-                                <input type="radio" id="d26" name="date">
-                            </div>
-                            <div class="booking-date">
-                                <input type="radio" id="d27" name="date">
-                                <label for="d27">27</label>
-                            </div>
-                            <div class="booking-date">
-                                <input type="radio" id="d28" name="date">
-                                <label for="d28">28</label>
-                            </div>
-                            <div class="booking-date">
-                                <input type="radio" id="d29" name="date">
-                                <label for="d29">29</label>
-                            </div>
-                            <div class="booking-date">
-                                <input type="radio" id="d30" name="date">
-                                <label for="d30">30</label>
-                            </div>
-                            <div class="booking-date">
-                                <input type="radio" id="d31" name="date">
-                                <label for="d31">31</label>
-                            </div>
-                            <div class="booking-date booking-date-hidden">
-                                <label for="d01" class="date-hidden">01</label>
-                                <input type="radio" id="d01" name="date">
-                            </div>
-                        </div>
-                    </div>
-            </form>
-            <h3>Contact form</h3>
-                <p>For special inquiries</p>
+                </form>
+            </div>
+            <div class="booking-contact-form">
+                <h3 class="booking-h3">Contact form</h3>
+                <p class="booking-text">For special inquiries</p>
                 <form class="booking-form-inputs">
                     <label for="name2"></label>
-                    <input type="text" id="name2" name="name" title="Enter your name" placeholder="Name" required class="input-fields">
+                    <input type="text" id="name2" name="name" title="Enter your name" placeholder="Name" required class="input-fields">    
                     <label for="email2"></label>
                     <input type="email" id="email2" name="email" title="Enter your email address" placeholder="Email" required class="input-fields">
                     <label for="message"></label>
                     <input type="text" id="message" name="message" title="Enter your message" placeholder="Message" required class="input-fields-message">
                 </form>
-                <a href="confirmation.html" class="button">Submit</a>
+                <div class="booking-submit-button">
+                    <a href="confirmation.html" class="button">Submit</a>
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
         <!-- Footer mobile -->
