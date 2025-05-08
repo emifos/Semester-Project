@@ -23,7 +23,10 @@ p,
 .booking-form,
 .site-nav,
 .dropdown-explore,
-.footer-headline{
+.footer-headline,
+.booking-form-tickets, 
+.input-fields,
+.input-fields-message{
     font-family:'Asap', Arial, Helvetica, sans-serif;
 }
 
@@ -211,7 +214,7 @@ p{
 .button{
     background-color: #E2945B;
     border-radius:5px;
-    padding: 10px 30px;
+    padding: 15px 30px;
     color: #000000;
     font-size: 1.25rem;
 }
