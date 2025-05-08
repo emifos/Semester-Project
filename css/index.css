@@ -11,6 +11,7 @@
     height: 650px;
     background-position-x: right;
     position: relative;
+    background-color: black;
 }
 
 .banner-home::before {
