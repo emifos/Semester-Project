@@ -247,4 +247,5 @@ p{
     background-image: url('../images/museum-overlook-image.jpg');
     background-size: cover;
     min-height: 687px;
+    background-color: black;
 }

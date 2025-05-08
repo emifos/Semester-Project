@@ -358,6 +358,7 @@
 /* Explore */ 
     .explore-h1{
         background-image: url(../images/girl-museum-image.jpg);
+        background-color: black;
     }
 
     .explore-phone-image {
@@ -395,6 +396,7 @@
 /* Exhibitions and events */
     .exhibition-h1 {
         background-image: url(../images/night-at-museum-image.jpg);
+        background-color: black;
     }
 
     .exhibition-phone-image {
