@@ -70,6 +70,7 @@ input[type="radio"]:checked + label {
     background-color: #f5f1fc;
     max-width: 500px;
     padding: 25px;
+    font-size: 1.25rem;
 }
 
 .booking-form-tickets, 
@@ -77,14 +78,19 @@ input[type="radio"]:checked + label {
 .input-fields-message{
     margin: 10px auto;
     width: 300px;
-    font-family: 'Asap';
 }
 
 .tickets-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dropdown-tickets,
+.tickets-text {
     border-bottom: 1px solid #713d9c;
     padding: 5px 0px;
-    
-}
+}    
+
 
 .kids-adults {
     display: flex;
