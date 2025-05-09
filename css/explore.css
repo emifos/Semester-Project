@@ -13,10 +13,10 @@
 .dropdown-explore{
     font-size: 1.125rem;
     line-height: 30px;
-    color: #2B2B2B;
+    color: var(--h1-h2-h3-clr);
     padding: 5px;
     margin:10px 30px;
-    border-bottom: solid #2b2b2b;
+    border-bottom: solid var(--h1-h2-h3-clr);
     width: 300px;
 }
 
@@ -33,5 +33,5 @@
 }
 
 .explore-paragraph-text {
-    border-bottom: solid #000;
+    border-bottom: solid var(--text-clr);
 }
