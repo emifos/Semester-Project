@@ -14,6 +14,10 @@
     .footer-dropdown {
         width: 65%;
     }
+
+    .visit-us-paragraph {
+        margin: 0px 20px;
+    }
     
 }
 
@@ -26,14 +30,16 @@
     }
 
     .home-img-link {
-        max-width: 600px;
         width: 100%;
     }
 
 
  /* Explore */
-    .explore-paragraph {
-        max-width: 600px;
+    .explore-paragraph,
+    .visit-us-paragraph,
+    .get-involved-paragraph,
+    .home-img-link {
+        max-width: var(--content-width);
         margin: auto;
     }
 
@@ -47,16 +53,6 @@
     }
 
  /* Visit us */
-    .visit-us-h1 {
-        margin: 20px 50px;
-    }
-
-    .visit-us-paragraph {
-        max-width: 600px;
-        margin: auto;
-        padding: 0px 20px;
-    }
-
     .cafe-image, 
     .shop-image {
         display: block;
@@ -71,11 +67,6 @@
         margin: 0px 40px;
         padding: 30px 0px;
         box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
-    }
-
-/* Get Involved */
-    .get-involved-paragraph {
-        max-width: 600px;
     }
 
   
@@ -201,12 +192,12 @@
 /* Explore and Exhibition */
     .explore-h1,
     .exhibition-h1 {
-        margin-left: 50px;
+        margin: var(--h1-margin-tablet-desktop);
     }
 
     .explore-phone-image,
     .exhibition-phone-image {
-        margin-bottom: 5px;
+        margin: 0px;
     }
 
 /* Exhibition */
@@ -265,6 +256,7 @@
     .visit-us-paragraph-1-2 {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        margin: 50px 60px;
     }
 
     .visit-us-opening-hours-backround {
@@ -280,10 +272,6 @@
         grid-column-start: 2;
     }
 
-    .visit-us-text {
-        margin: 50px 60px 0px 60px;
-    }
-
     .visit-us-paragraph-3-4 {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -291,7 +279,7 @@
         justify-items: center;
         background-color: var(--background-clr);
         margin: 0px;
-        padding-bottom: 50px;
+        padding: 50px 60px;
     }
     
     .cafe-image{
@@ -299,8 +287,9 @@
     }
 
     .food-and-drink,
-    .shop {
-        max-width: 600px;
+    .shop,
+    .booking-calendar {
+        max-width: var(--content-width);
     }
 
 /* Booking */
@@ -316,7 +305,6 @@
     .booking-calendar {
         margin: 0px 10px 0px 0px;
         padding: 0px;
-        max-width: 600px;
     }
 
 
@@ -418,6 +406,11 @@
         padding-left: 50px;
     }
 
+/* Visit us */
+    .visit-us-h1,
+    .booking-h1 {
+        margin: var(--h1-margin-tablet-desktop);
+    }
 
 /* Explore */
     .dropdown-explore {
