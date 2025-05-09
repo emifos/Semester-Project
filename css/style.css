@@ -1,3 +1,7 @@
+:root {
+    --header-clr: #eee8fa;
+}
+
 body{
     margin: 0;
 }
@@ -39,7 +43,7 @@ h2{
 
 /* Header and Footer*/
 header{
-    background-color: #EEE8FA;
+    background-color: var(--header-clr);
 }
 
 .logo-header{
@@ -80,7 +84,7 @@ a{
 
 .header-content {
     position: absolute;
-    background-color: #eee8fa;
+    background-color: var(--header-clr);
     padding: 20px 100px 320px 20px;
     margin: 0;
     list-style: none;
@@ -99,7 +103,6 @@ footer{
 }
 
 .logo-footer{
-    color: #D87124;
     width: 250px;
 }
 
