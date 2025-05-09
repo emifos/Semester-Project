@@ -75,7 +75,8 @@ input[type="radio"]:checked + label {
 
 .booking-form-tickets, 
 .input-fields,
-.input-fields-message{
+.input-fields-message,
+.booking-form-inputs {
     margin: 10px auto;
     width: 300px;
 }
@@ -115,15 +116,15 @@ input[type="radio"]:checked + label {
 .booking-form-inputs {
     display: flex;
     flex-direction: column;
-    align-items: center;
 
 }
 
 .input-fields,
 .input-fields-message {
     border-radius: 5px;
-    border-radius: 1px solid var(--text-clr);
-    padding: 10px;
+    border: 1px solid var(--text-clr);
+    padding: 15px 0px;
+    
 }
 
 .input-fields-message {
@@ -148,12 +149,12 @@ input[type="radio"]:checked + label {
 
 .booking-h3 {
     align-self: center;
-    margin: 40px 176px 0px 20px;
+    margin: 40px 152px 0px 20px;
 }
 
 .booking-text {
     align-self: center;
-    margin: 5px 169px 0px 0px;
+    margin: 5px 145px 0px 0px;
 }
 
 .booking-contact-form {

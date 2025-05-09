@@ -51,7 +51,9 @@ p,
 .footer-headline,
 .booking-form-tickets, 
 .input-fields,
-.input-fields-message{
+.input-fields-message,
+.label-text,
+.booking-form-inputs{
     font-family: var(--primary-font);
 }
 
