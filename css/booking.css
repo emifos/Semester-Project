@@ -91,6 +91,12 @@ input[type="radio"]:checked + label {
     padding: 5px 0px;
 }    
 
+.tickets-text:hover {
+    background-color: var(--secondary-clr);
+    padding: 5px 0px;
+    color: var(--text-light-clr);
+    cursor: pointer;
+}
 
 .kids-adults {
     display: flex;
