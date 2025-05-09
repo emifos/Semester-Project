@@ -1,5 +1,5 @@
 .h1-home{
-    color: #D87124;
+    color: var(--tertiary-clr);
     font-size: 3rem;
     font-weight: 700;
     margin: 0px;
@@ -11,7 +11,7 @@
     height: 650px;
     background-position-x: right;
     position: relative;
-    background-color: black;
+    background-color: var(--text-clr);
 }
 
 .banner-home::before {
@@ -23,7 +23,7 @@
 }
 
 .home-banner-text {
-    color: #ffffff;
+    color: var(--text-light-clr);
 }
 
 .home-banner-text,
@@ -58,7 +58,7 @@
     left: 53%;
     transform: translate(-50%, -50%);
     background-color: rgba(0, 0, 0, 0.8);
-    color:#FFFFFF;
+    color: var(--text-light-clr);
     padding: 19px 30px;
     box-sizing: border-box;
     width: 100%;
@@ -73,7 +73,7 @@
 .home-section {
     display: flex;
     flex-direction: column;
-    background-color: #f5f1fc;
+    background-color: var(--background-clr);
     padding: 20px 0px 40px 0px;
 }
 

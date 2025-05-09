@@ -14,7 +14,7 @@
 .h1-get-involved {
     margin: 0px;
     z-index: 2;
-    color: #D87124;
+    color: var(--tertiary-clr);
     font-weight: 700;
     font-size: 2.25rem;
     position: relative;

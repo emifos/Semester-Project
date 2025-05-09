@@ -34,7 +34,7 @@
 .confirmation-logo,
 .h1-confirmation,
 .fa-circle-check{
-    color: #FFFFFF;
+    color: var(--text-light-clr);
     z-index: 2;
     position: relative; 
     margin: 20px auto;
@@ -42,7 +42,7 @@
 }
 
 .fa-circle-check {
-    color: #D87124;
+    color: var(--tertiary-clr);
     font-size: 5rem;
     margin: 0 auto;
     width: 100px;

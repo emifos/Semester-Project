@@ -66,7 +66,7 @@
 
 /* Booking */
     .booking-content {
-        border: solid 1px #000;
+        border: solid 1px var(--text-clr);
         border-radius: 5px;
         margin: 0px 40px;
         padding: 30px 0px;
@@ -176,7 +176,7 @@
         display:block;
         background-size: cover;
         height: 400px;
-        background-color: #f5f1fc;
+        background-color: var(--background-clr);
         padding: 70px;
         
     }
@@ -218,7 +218,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         justify-items: center;
-        background-color: #f5f1fc;
+        background-color: var(--background-clr);
         width: 100%;
         padding: 20px 0px 50px 0px;
         margin-top: 30px;
@@ -238,7 +238,7 @@
         grid-template-columns: 1fr 1fr;
         gap: 20px;
         align-items: center;
-        background-color: #f5f1fc;
+        background-color: var(--background-clr);
         justify-items: center;
     }
 
@@ -268,12 +268,12 @@
     }
 
     .visit-us-opening-hours-backround {
-        background-color: #FFFFFF;
+        background-color: var(--text-light-clr);
         margin: 0px;
     }
 
     .visit-us-opening-hours {
-        border-left: 1px solid black;
+        border-left: 1px solid var(--text-clr);
     }
 
     .visit-us-button {
@@ -289,7 +289,7 @@
         grid-template-columns: 1fr 1fr;
         gap: 20px;
         justify-items: center;
-        background-color: #f5f1fc;
+        background-color: var(--background-clr);
         margin: 0px;
         padding-bottom: 50px;
     }
@@ -358,7 +358,7 @@
 /* Explore */ 
     .explore-h1{
         background-image: url(../images/girl-museum-image.jpg);
-        background-color: black;
+        background-color: var(--text-clr);
     }
 
     .explore-phone-image {
@@ -378,7 +378,7 @@
     .exhibition-phone-image {
         position: relative;
         z-index: 2;
-        color: #FFFFFF;
+        color: var(--text-light-clr);
         margin-top: 0;
         left: 10%;
         width: 90%;
@@ -396,7 +396,7 @@
 /* Exhibitions and events */
     .exhibition-h1 {
         background-image: url(../images/night-at-museum-image.jpg);
-        background-color: black;
+        background-color: var(--text-clr);
     }
 
     .exhibition-phone-image {

@@ -1,7 +1,14 @@
 :root {
     --primary-clr: #E2945B;
+    --secondary-clr: #713d9c;
     --header-clr: #eee8fa;
-
+    --footer-clr: #262626;
+    --tertiary-clr: #d87124;
+    --text-clr: #000000;
+    --h1-h2-h3-clr: #2b2b2b;
+    --nav-clr: #47464b; 
+    --background-clr: #f5f1fc;
+    --text-light-clr: #ffffff;
 }
 
 body{
@@ -58,7 +65,7 @@ a{
 
 .nav-header{
     font-weight: 600;
-    color:#47464B;
+    color: var(--nav-clr);
     font-size: 1.25rem;
 }
 
@@ -72,7 +79,7 @@ a{
 }
 
 .hamburger-icon {
-    color: #713d9c;
+    color: var(--secondary-clr);
     font-size: 2rem;
     padding: 20px 0px 20px 20px;
 }
@@ -95,12 +102,12 @@ a{
 
 .header-content li {
     margin: 30px 0px;
-    border-bottom: 1px solid #000000;
+    border-bottom: 1px solid var(--text-clr);
     padding: 10px 160px 10px 0px;
 }
 
 footer{
-    background-color: #262626;
+    background-color: var(--footer-clr);
     margin-top: 60px;
 }
 
@@ -111,18 +118,18 @@ footer{
 h4,
 .footer-headline{
     font-size: 0.938rem;
-    color: #D87124;
+    color: var(--tertiary-clr);
     font-weight: 600;
 }
 
 .footer-content{
-    color: #FFFFFF;
+    color: var(--text-light-clr);
     font-size: 0.813rem;
     margin: 5px;
 }
 
 .fa-brands{
-    color: #FFFFFF;
+    color: var(--text-light-clr);
 }
 
 .footer-desktop {
@@ -134,7 +141,7 @@ h4,
 }
 
 .footer-dropdown {
-    border-bottom: solid #D87124;
+    border-bottom: solid var(--tertiary-clr);
     padding: 5px 8px 0px 8px;
     margin-bottom: 10px;
     width: 50%;
@@ -204,13 +211,13 @@ h2 {
 h1, 
 h2,
 h3{
-    color:#2B2B2B;
+    color: var(--h1-h2-h3-clr);
     text-transform: uppercase;
 }
 
 p{
     font-size: 1.125rem;
-    color: #000000;
+    color: var(--text-clr);
     line-height:30px;
 
 }
@@ -220,7 +227,7 @@ p{
     background-color: var(--primary-clr);
     border-radius:5px;
     padding: 15px 30px;
-    color: #000000;
+    color: var(--text-clr);
     font-size: 1.25rem;
 }
 
@@ -242,7 +249,7 @@ p{
 }
 
 .site-nav{
-    color: #47464B;
+    color: var(--nav-clr);
     font-size:0.938rem;
 }
 
@@ -252,7 +259,7 @@ p{
     background-image: url('../images/museum-overlook-image.jpg');
     background-size: cover;
     min-height: 687px;
-    background-color: black;
+    background-color: var(--text-clr);
 }
 
 /* Coming Soon */
