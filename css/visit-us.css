@@ -1,17 +1,13 @@
 .visit-us-h1 {
-    margin: 20px 20px;
+    margin: var(--h1-margin-mobile);
 }
 
 
 .visit-us-opening-hours-backround {
     background-color: var(--background-clr);
     margin: 40px 0px 0px 0px;
-    padding: 20px;
+    padding: 40px;
     
-}
-
-.visit-us-paragraph {
-    margin: 0px 20px;
 }
 
 .visit-us-hours {
@@ -32,9 +28,11 @@
 
 .cafe-image,
 .shop-image {
-    max-width: 600px;
+    max-width: var(--content-width);
     width: 100%;
-    
 }
 
+.visit-us-p {
+    margin: 5px 0px;
+}
 

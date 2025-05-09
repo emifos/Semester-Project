@@ -9,6 +9,11 @@
     --nav-clr: #47464b; 
     --background-clr: #f5f1fc;
     --text-light-clr: #ffffff;
+    --content-width: 600px; 
+    --primary-font: 'Asap', Arial, Helvetica, sans-serif;
+    --secondary-font: 'Coiny', Verdana, Geneva, Tahoma, sans-serif;
+    --h1-margin-tablet-desktop: 30px 0px 5px 50px;
+    --h1-margin-mobile: 20px;
 }
 
 body{
@@ -23,6 +28,13 @@ main {
 .explore-nav,
 .exhibition-nav{
     display: none;
+}
+
+.get-involved-p,
+.visit-us-p,
+.explore-paragraph-top,
+.exhibition-paragraph-top {
+    margin: 5px 0px;
 }
 
 /* Font */
@@ -40,14 +52,14 @@ p,
 .booking-form-tickets, 
 .input-fields,
 .input-fields-message{
-    font-family:'Asap', Arial, Helvetica, sans-serif;
+    font-family: var(--primary-font);
 }
 
 h3,
 h1,
 .button,
 h2{
-    font-family:'Coiny', Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--secondary-font);
 }
 
 /* Header and Footer*/
@@ -55,7 +67,9 @@ header{
     background-color: var(--header-clr);
 }
 
-.logo-header{
+.logo-header,
+.logo-footer,
+.footer-mobile-logo{
     width: 250px;
 }
 
@@ -111,10 +125,6 @@ footer{
     margin-top: 60px;
 }
 
-.logo-footer{
-    width: 250px;
-}
-
 h4,
 .footer-headline{
     font-size: 0.938rem;
@@ -162,7 +172,6 @@ summary {
 
 .footer-mobile-logo {
     margin: 0px auto;
-    width: 250px;
 }
 
 .footer-headline-1,
@@ -263,7 +272,6 @@ p{
 }
 
 /* Coming Soon */
-
 .coming-soon-main {
     flex: 1;
 }
@@ -278,11 +286,9 @@ p{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 20px 0px;
-    
+    margin: var(--h1-margin-mobile);
 }
 
 .coming-soon-text {
     margin: 0px;
-
 }

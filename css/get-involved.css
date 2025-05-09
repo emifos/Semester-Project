@@ -24,7 +24,7 @@
 
 .get-involved-paragraph {
     margin: 20px auto;
-    max-width: 600px;
+    max-width: var(--content-width);
     padding: 0px 20px;
 }
 
