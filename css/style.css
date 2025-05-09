@@ -1,3 +1,8 @@
+:root {
+    --primary-clr: #E2945B;
+
+}
+
 body{
     margin: 0;
 }
@@ -212,7 +217,7 @@ p{
 
 /* Buttons */
 .button{
-    background-color: #E2945B;
+    background-color: var(--primary-clr);
     border-radius:5px;
     padding: 15px 30px;
     color: #000000;
