@@ -52,14 +52,12 @@ input[type="radio"] {
     margin: 0px;
 }
 
-.date-hidden {
-    color: var(--background-clr);
-    display: none;
+.booking-date-hidden label {
+    visibility: hidden;
 }
 
-.booking-date-hidden label:hover {
+.booking-date-hidden {
     background-color: var(--background-clr);
-    color: var(--background-clr);
 }
 
 input[type="radio"]:checked + label {
