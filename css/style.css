@@ -281,7 +281,7 @@ p{
 .coming-soon-body {
     display: flex;
     flex-direction: column;
-    height: 140vh;
+    height: 100vh;
 }
 
 .coming-soon {
