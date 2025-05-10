@@ -54,6 +54,7 @@ input[type="radio"] {
 
 .date-hidden {
     color: var(--background-clr);
+    display: none;
 }
 
 .booking-date-hidden label:hover {
