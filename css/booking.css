@@ -1,8 +1,5 @@
 .booking-calendar {
-    display: flex;
-    flex-direction: column;
     gap: 5px;
-    margin: 0px auto;
     max-width: 500px;
     padding: 10px;
 }
@@ -80,7 +77,9 @@ input[type="radio"]:checked + label {
     width: 300px;
 }
 
-.tickets-text {
+.tickets-text,
+.kids-label, 
+.adults-label {
     display: flex;
     justify-content: space-between;
 }
@@ -101,18 +100,17 @@ input[type="radio"]:checked + label {
 .kids-adults {
     display: flex;
     flex-direction: row;
-    
 }
 
 .kids-label, 
 .adults-label {
-    display: flex;
-    justify-content: space-between;
     margin-bottom: 10px;
 }
 
 
-.booking-form-inputs {
+.booking-form-inputs,
+.booking-contact-form,
+.booking-calendar {
     display: flex;
     flex-direction: column;
 
@@ -123,7 +121,6 @@ input[type="radio"]:checked + label {
     border-radius: 5px;
     border: 1px solid var(--text-clr);
     padding: 15px 0px;
-    
 }
 
 .input-fields-message {
@@ -157,7 +154,5 @@ input[type="radio"]:checked + label {
 }
 
 .booking-contact-form {
-    display: flex;
-    flex-direction: column;
     margin-top: 50px;
 }

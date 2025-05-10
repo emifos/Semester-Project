@@ -26,7 +26,9 @@ main {
 }
 
 .explore-nav,
-.exhibition-nav{
+.exhibition-nav,
+.footer-desktop,
+.header-content, #menu-checkbox{
     display: none;
 }
 
@@ -35,6 +37,22 @@ main {
 .explore-paragraph-top,
 .exhibition-paragraph-top {
     margin: 5px 0px;
+}
+
+.explore-nav, 
+.exhibition-nav,
+.header-content, #menu-checkbox,
+.header-content{
+    list-style: none;
+}
+
+.footer-mobile-logo,
+.footer-headline-3,
+.footer-dropdown,
+.visit-us-hours,
+.home-paragraph-text,
+.booking-calendar {
+    margin: 0px auto;
 }
 
 /* Font */
@@ -85,11 +103,6 @@ a{
     font-size: 1.25rem;
 }
 
-.header-content, #menu-checkbox {
-    list-style: none;
-    display: none;
-}
-
 #menu-checkbox:checked ~ .header-content {
     display: block;
 }
@@ -112,7 +125,6 @@ a{
     background-color: var(--header-clr);
     padding: 20px 100px 320px 20px;
     margin: 0;
-    list-style: none;
     z-index: 3;
 }
 
@@ -135,17 +147,13 @@ h4,
 }
 
 .footer-content{
-    color: var(--text-light-clr);
     font-size: 0.813rem;
     margin: 5px;
 }
 
-.fa-brands{
+.fa-brands,
+.footer-content{
     color: var(--text-light-clr);
-}
-
-.footer-desktop {
-    display: none;
 }
 
 .footer-mobile {
@@ -157,7 +165,6 @@ h4,
     padding: 5px 8px 0px 8px;
     margin-bottom: 10px;
     width: 50%;
-    margin: 0px auto;
 }
 
 summary {
@@ -172,10 +179,6 @@ summary {
     padding-bottom: 10px;
 }
 
-.footer-mobile-logo {
-    margin: 0px auto;
-}
-
 .footer-headline-1,
 .footer-headline-2,
 .footer-headline-3 {
@@ -183,13 +186,10 @@ summary {
 }
 
 .footer-headline-3 {
-    margin: 0px auto;
     width: 80px;
 }
 
 .footer-contact-us {
-    display: flex;  
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -252,19 +252,19 @@ p{
     margin: 50px auto;
 }
 
-
-/* Explore - Exhibitions and Events */
-.explore-nav, 
-.exhibition-nav{
-    list-style: none;
-}
-
+/* Homepage, Explore, Exhibitions and Events */
 .site-nav{
     color: var(--nav-clr);
     font-size:0.938rem;
 }
 
-/* get involved and confirmation image */
+.exhibition-h2,
+.explore-paragraph,
+.home-h2 {
+    margin: 0px 20px;
+}
+
+/* Get involved and confirmation image */
 .get-involved-banner,
 .confirmation-content {
     background-image: url('../images/museum-overlook-image.jpg');
@@ -279,18 +279,21 @@ p{
 }
 
 .coming-soon-body {
-    display: flex;
-    flex-direction: column;
     height: 100vh;
 }
 
 .coming-soon {
-    display: flex;
-    flex-direction: column;
     align-items: center;
     margin: var(--h1-margin-mobile);
 }
 
 .coming-soon-text {
     margin: 0px;
+}
+
+.coming-soon,
+.coming-soon-body,
+.footer-contact-us {
+    display: flex;
+    flex-direction: column; 
 }

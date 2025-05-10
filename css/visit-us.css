@@ -2,16 +2,13 @@
     margin: var(--h1-margin-mobile);
 }
 
-
 .visit-us-opening-hours-backround {
     background-color: var(--background-clr);
     margin: 40px 0px 0px 0px;
     padding: 40px;
-    
 }
 
 .visit-us-hours {
-    margin: 0px auto;
     max-width: 100px;
 }
 
@@ -30,9 +27,5 @@
 .shop-image {
     max-width: var(--content-width);
     width: 100%;
-}
-
-.visit-us-p {
-    margin: 5px 0px;
 }
 

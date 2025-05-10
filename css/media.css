@@ -151,12 +151,7 @@
     }
 
     
-/* Explore */
-    .explore-nav {
-        display: flex;
-        margin: 0px 10px;
-    }
-
+/* Explore */ 
     .site-nav {
         padding: 2px;
     }
@@ -169,12 +164,9 @@
         height: 400px;
         background-color: var(--background-clr);
         padding: 70px;
-        
     }
 
     .explore-paragraph {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
         gap: 80px;
         align-items: center;
         justify-items: center;
@@ -185,26 +177,37 @@
         border-bottom: none;
     }
 
-    .explore-h3 {
-        margin: 0px;
-    }
-
-/* Explore and Exhibition */
+/* Explore, Exhibition, Visit us, Booking */
     .explore-h1,
     .exhibition-h1 {
         margin: var(--h1-margin-tablet-desktop);
     }
 
     .explore-phone-image,
-    .exhibition-phone-image {
+    .exhibition-phone-image,
+    .explore-h3,
+    .event-paragraph-text,
+    .visit-us-opening-hours-backround,
+    .visit-us-paragraph-3-4  {
         margin: 0px;
     }
 
-/* Exhibition */
-    .exhibition-nav{
+    .exhibition-nav,
+    .explore-nav{
         display: flex;
         margin: 0px 10px;
     }
+
+    .explore-paragraph,
+    .our-exhibitions,
+    .visit-us-paragraph-1-2,
+    .visit-us-paragraph-3-4,
+    .booking-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+/* Exhibition */
     .special-events {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -215,18 +218,12 @@
         margin-top: 30px;
     }
 
-    .event-image {
+    .event-image,
+    .event-paragraph-text  {
         max-width: 350px;
-    }
-
-    .event-paragraph-text {
-        max-width: 350px;
-        margin: 0px;
     }
 
     .our-exhibitions {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
         gap: 20px;
         align-items: center;
         background-color: var(--background-clr);
@@ -254,14 +251,11 @@
 
  /* Visit us */
     .visit-us-paragraph-1-2 {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
         margin: 50px 60px;
     }
 
     .visit-us-opening-hours-backround {
         background-color: var(--text-light-clr);
-        margin: 0px;
     }
 
     .visit-us-opening-hours {
@@ -273,12 +267,9 @@
     }
 
     .visit-us-paragraph-3-4 {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
         gap: 20px;
         justify-items: center;
         background-color: var(--background-clr);
-        margin: 0px;
         padding: 50px 60px;
     }
     
@@ -293,11 +284,6 @@
     }
 
 /* Booking */
-    .booking-content {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-
     .booking-date label {
         padding: 30px 10px;
     }

@@ -22,7 +22,8 @@
     background: rgba(0, 0, 0, 0.5);
 }
 
-.home-banner-text {
+.home-banner-text,
+.img-link-text {
     color: var(--text-light-clr);
 }
 
@@ -58,7 +59,6 @@
     left: 53%;
     transform: translate(-50%, -50%);
     background-color: rgba(0, 0, 0, 0.8);
-    color: var(--text-light-clr);
     padding: 19px 30px;
     box-sizing: border-box;
     width: 100%;
@@ -77,15 +77,10 @@
     padding: 20px 0px 40px 0px;
 }
 
-.home-h2 {
-    margin: 0px 20px;
-}
-
 .home-paragraph {
     margin: 60px 0px;
 }
 
 .home-paragraph-text {
-    margin: 0px auto;
     max-width: 850px;
 }
