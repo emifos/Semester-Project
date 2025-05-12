@@ -151,13 +151,11 @@ h4,
     margin: 5px;
 }
 
-.footer-content a {
-    text-decoration: none;
-}
 
 .fa-brands,
-.footer-content{
-    color: var(--text-light-clr);
+.footer-content,
+.footer-content a{
+    color: var(--text-light-clr) !important;
     text-decoration: none;
 }
 
