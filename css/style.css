@@ -71,7 +71,8 @@ p,
 .input-fields,
 .input-fields-message,
 .label-text,
-.booking-form-inputs{
+.booking-form-inputs,
+.input-number{
     font-family: var(--primary-font);
 }
 
