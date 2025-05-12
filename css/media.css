@@ -10,6 +10,7 @@
         top: 89%;
         left: 50%;
     }
+
 /* Explore */
     .footer-dropdown {
         width: 65%;
@@ -32,7 +33,6 @@
     .home-img-link {
         width: 100%;
     }
-
 
  /* Explore */
     .explore-paragraph,
@@ -57,7 +57,6 @@
     .shop-image {
         display: block;
         margin: 0px auto;
-
     }
 
 /* Booking */
@@ -68,7 +67,6 @@
         padding: 30px 0px;
         box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
     }
-
   
 }
 
@@ -149,7 +147,6 @@
     .home-h2 {
         margin-left: 50px;
     }
-
     
 /* Explore */ 
     .site-nav {
@@ -307,10 +304,8 @@
         grid-column-start: 3;
         margin: 20px auto;
     }
-
   
 }
-
 
 /* Phone and Tablet*/
 @media (max-width:1199px) {
@@ -407,9 +402,6 @@
     .exhibition-paragraph-text {
         margin: 0px;
     }
-
-
-
 
 }
 
