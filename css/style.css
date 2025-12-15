@@ -243,6 +243,7 @@ p{
     padding: 15px 30px;
     color: var(--text-clr);
     font-size: 1.25rem;
+    cursor: pointer;
 }
 
 .visit-us-button,
@@ -253,6 +254,10 @@ p{
 .buy-tickets-button,
 .booking-submit-button {
     margin: 50px auto;
+}
+
+.button:hover {
+    background-color: #CC7F4D;
 }
 
 /* Homepage, Explore, Exhibitions and Events */
