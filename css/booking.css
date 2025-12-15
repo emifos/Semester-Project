@@ -124,6 +124,14 @@ input[type="radio"]:checked + label {
     font-size: 1rem;
 }
 
+.input-fields:focus,
+.input-fields-message:focus {
+    outline: none;
+    border: 2px solid #66bb6a;
+}
+
+
+
 .input-fields-message {
     height: 70px;
 }
